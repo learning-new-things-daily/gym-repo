@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about IronPeak Gym — our story, mission, certified trainers, world-class facilities, and achievements. Fitness done right since 2015.">
+  <meta name="keywords" content="about IronPeak Gym, gym trainers, gym history, fitness center, gym facilities">
+  <meta property="og:title" content="About IronPeak Gym — Our Story & Team">
+  <meta property="og:description" content="Meet our certified trainers, explore our facilities, and discover why IronPeak Gym is the premier fitness destination.">
+  <meta property="og:type" content="website">
+  <title>About Us — IronPeak Gym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+
+<!-- Page Loader -->
+<div id="pageLoader" class="page-loader" aria-hidden="true">
+  <div class="loader-logo">⚡ IronPeak</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="nav-logo" aria-label="IronPeak Gym Home">
+      <span class="logo-icon" aria-hidden="true">⚡</span>
+      <span>Iron<span class="logo-highlight">Peak</span></span>
+    </a>
+    <div class="nav-links" role="menubar">
+      <a href="index.html" role="menuitem">Home</a>
+      <a href="about.html" class="active" role="menuitem">About</a>
+      <a href="services.html" role="menuitem">Services</a>
+      <a href="packages.html" role="menuitem">Packages</a>
+      <a href="workouts.html" role="menuitem">Workouts</a>
+      <a href="reviews.html" role="menuitem">Reviews</a>
+      <a href="faq.html" role="menuitem">FAQ</a>
+      <a href="contact.html" role="menuitem">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">🌙</button>
+      <a href="contact.html" class="btn btn-primary btn-sm">Join Now</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div class="nav-drawer-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="nav-drawer" id="navDrawer" aria-label="Mobile navigation">
+  <button class="nav-drawer-close" id="drawerClose" aria-label="Close menu">✕</button>
+  <div class="drawer-links" role="menu">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👥 About Us</a>
+    <a href="services.html">💪 Services</a>
+    <a href="packages.html">💳 Packages</a>
+    <a href="workouts.html">🏋️ Workouts</a>
+    <a href="reviews.html">⭐ Reviews</a>
+    <a href="faq.html">❓ FAQ</a>
+    <a href="contact.html">📞 Contact</a>
+    <button id="themeToggleDrawer" style="margin-top:1rem;padding:.75rem 1rem;border-radius:var(--radius-md);border:1px solid var(--border);background:var(--surface);cursor:pointer;font-size:.9rem;font-weight:600;color:var(--text);width:100%;text-align:left;">🌙 Dark Mode</button>
+    <a href="contact.html" class="btn btn-primary" style="margin-top:.75rem;justify-content:center;">Join Now</a>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<header class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a> › <span>About Us</span>
+    </nav>
+    <h1 class="animate-fadeInUp">About IronPeak Gym</h1>
+    <p class="animate-fadeInUp delay-1">Our story, mission, team, and the values that make us the city's most trusted fitness center.</p>
+  </div>
+</header>
+
+<!-- ===== GYM STORY ===== -->
+<section class="section" aria-labelledby="story-heading">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;" class="reveal">
+      <div>
+        <div class="section-badge">Our Story</div>
+        <h2 style="font-size:clamp(1.75rem,4vw,2.5rem);margin-bottom:1.25rem;" id="story-heading">Built by Fitness Enthusiasts, for Fitness Enthusiasts</h2>
+        <p style="color:var(--text-muted);line-height:1.8;margin-bottom:1.25rem;">IronPeak Gym was founded in 2015 by former competitive athlete Mike Torres with a simple but powerful vision: create a gym where every member feels welcomed, motivated, and empowered to achieve their best self.</p>
+        <p style="color:var(--text-muted);line-height:1.8;margin-bottom:1.5rem;">What started as a modest 2,000 sq ft space with 12 members has grown into a 15,000 sq ft state-of-the-art fitness complex serving over 5,000 active members with 25+ certified trainers and more than 200 pieces of premium equipment.</p>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-primary">Join Our Community</a>
+          <a href="services.html" class="btn btn-outline">Explore Services</a>
+        </div>
+      </div>
+
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&q=80"
+          alt="IronPeak Gym interior showing modern equipment and training area"
+          style="border-radius:var(--radius-xl);width:100%;box-shadow:var(--shadow-xl);"
+          loading="lazy"
+          width="600" height="400"
+        >
+      </div>
+    </div>
+
+    <!-- Timeline -->
+    <div style="margin-top:4rem;">
+      <h3 class="text-center reveal" style="font-size:1.5rem;margin-bottom:2rem;">Our Journey</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;max-width:800px;margin:0 auto;" class="stagger-children">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2015</div>
+            <div class="timeline-content">
+              <h3>Grand Opening</h3>
+              <p>IronPeak Gym opened its doors with 12 founding members and 5 trainers in a 2,000 sq ft space.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2017</div>
+            <div class="timeline-content">
+              <h3>First Expansion</h3>
+              <p>Added Yoga and CrossFit studios, bringing total space to 7,000 sq ft with 15 trainers.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2019</div>
+            <div class="timeline-content">
+              <h3>Award-Winning</h3>
+              <p>Voted "Best Gym in Muscle City" by Fitness Magazine readers for the first time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2021</div>
+            <div class="timeline-content">
+              <h3>Digital Transformation</h3>
+              <p>Launched online coaching platform and mobile app with 500+ active online clients.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-content">
+              <h3>Full Renovation</h3>
+              <p>Expanded to 15,000 sq ft with new steam bath, sauna, and premium lounge area.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <div class="timeline-content">
+              <h3>5,000+ Members</h3>
+              <p>Reached the milestone of 5,000 active members with 25 certified trainers on staff.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="section section-alt" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Facility Tour</div>
+      <h2 class="section-title section-title-deco" id="gallery-heading">World-Class Facilities</h2>
+      <p class="section-subtitle">15,000 sq ft of premium fitness space designed for maximum performance.</p>
+    </div>
+
+    <div class="gallery-grid stagger-children">
+      <div class="gallery-item" role="button" tabindex="0" aria-label="View Workout Area">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80" alt="Main Workout Area" loading="lazy" width="400" height="300">
+        <div class="gallery-overlay"><span aria-hidden="true">🔍</span></div>
+      </div>
+      <div class="gallery-item" role="button" tabindex="0" aria-label="View Cardio Zone">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" alt="Cardio Zone" loading="lazy" width="400" height="300">
+        <div class="gallery-overlay"><span aria-hidden="true">🔍</span></div>
+      </div>
+      <div class="gallery-item" role="button" tabindex="0" aria-label="View CrossFit Area">
+        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&q=80" alt="CrossFit Area" loading="lazy" width="400" height="300">
+        <div class="gallery-overlay"><span aria-hidden="true">🔍</span></div>
+      </div>
+      <div class="gallery-item" role="button" tabindex="0" aria-label="View Weight Section">
+        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&q=80" alt="Free Weights Section" loading="lazy" width="400" height="300">
+        <div class="gallery-overlay"><span aria-hidden="true">🔍</span></div>
+      </div>
+      <div class="gallery-item" role="button" tabindex="0" aria-label="View Yoga Studio">
+        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=80" alt="Yoga & Wellness Studio" loading="lazy" width="400" height="300">
+        <div class="gallery-overlay"><span aria-hidden="true">🔍</span></div>
+      </div>
+      <div class="gallery-item" role="button" tabindex="0" aria-label="View Locker Rooms">
+        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&q=80" alt="Premium Locker Rooms" loading="lazy" width="400" height="300">
+        <div class="gallery-overlay"><span aria-hidden="true">🔍</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRAINERS ===== -->
+<section class="section" aria-labelledby="trainers-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Our Team</div>
+      <h2 class="section-title section-title-deco" id="trainers-heading">Meet Our Expert Trainers</h2>
+      <p class="section-subtitle">Nationally certified professionals dedicated to your fitness success.</p>
+    </div>
+
+    <div class="grid grid-3 stagger-children" id="trainersGrid">
+      <!-- Trainer cards rendered below (static fallback) -->
+      <div class="trainer-card">
+        <div class="trainer-photo-wrap">
+          <img class="trainer-photo" src="https://ui-avatars.com/api/?name=Mike+Torres&background=e63946&color=fff&size=200" alt="Mike Torres" loading="lazy" width="130" height="130">
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Mike Torres</div>
+          <div class="trainer-role">Head Trainer & Strength Coach</div>
+          <div class="trainer-certs">
+            <span class="cert-badge">NASM-CPT</span>
+            <span class="cert-badge">CSCS</span>
+            <span class="cert-badge">CrossFit L2</span>
+          </div>
+          <div class="trainer-exp">🗓 12 years experience</div>
+        </div>
+      </div>
+      <div class="trainer-card">
+        <div class="trainer-photo-wrap" style="background:linear-gradient(135deg,#f4a261,#e76f51)">
+          <img class="trainer-photo" src="https://ui-avatars.com/api/?name=Jennifer+Lee&background=f4a261&color=fff&size=200" alt="Jennifer Lee" loading="lazy" width="130" height="130">
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Jennifer Lee</div>
+          <div class="trainer-role">Yoga & Wellness Coach</div>
+          <div class="trainer-certs">
+            <span class="cert-badge">RYT-500</span>
+            <span class="cert-badge">ACE-CPT</span>
+            <span class="cert-badge">Pilates</span>
+          </div>
+          <div class="trainer-exp">🗓 10 years experience</div>
+        </div>
+      </div>
+      <div class="trainer-card">
+        <div class="trainer-photo-wrap" style="background:linear-gradient(135deg,#2a9d8f,#264653)">
+          <img class="trainer-photo" src="https://ui-avatars.com/api/?name=Carlos+Mendez&background=2a9d8f&color=fff&size=200" alt="Carlos Mendez" loading="lazy" width="130" height="130">
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Carlos Mendez</div>
+          <div class="trainer-role">HIIT & CrossFit Specialist</div>
+          <div class="trainer-certs">
+            <span class="cert-badge">CrossFit L3</span>
+            <span class="cert-badge">NASM-CPT</span>
+            <span class="cert-badge">TRX</span>
+          </div>
+          <div class="trainer-exp">🗓 8 years experience</div>
+        </div>
+      </div>
+      <div class="trainer-card">
+        <div class="trainer-photo-wrap" style="background:linear-gradient(135deg,#e9c46a,#f4a261)">
+          <img class="trainer-photo" src="https://ui-avatars.com/api/?name=Priya+Kapoor&background=e9c46a&color=333&size=200" alt="Priya Kapoor" loading="lazy" width="130" height="130">
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Priya Kapoor</div>
+          <div class="trainer-role">Nutrition & Women's Fitness Coach</div>
+          <div class="trainer-certs">
+            <span class="cert-badge">Precision Nutrition L2</span>
+            <span class="cert-badge">ACE-CPT</span>
+          </div>
+          <div class="trainer-exp">🗓 7 years experience</div>
+        </div>
+      </div>
+      <div class="trainer-card">
+        <div class="trainer-photo-wrap" style="background:linear-gradient(135deg,#457b9d,#1d3557)">
+          <img class="trainer-photo" src="https://ui-avatars.com/api/?name=Ryan+Walsh&background=457b9d&color=fff&size=200" alt="Ryan Walsh" loading="lazy" width="130" height="130">
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Ryan Walsh</div>
+          <div class="trainer-role">Bodybuilding & Muscle Coach</div>
+          <div class="trainer-certs">
+            <span class="cert-badge">ISSA-CPT</span>
+            <span class="cert-badge">NASM-PES</span>
+            <span class="cert-badge">NPC Judge</span>
+          </div>
+          <div class="trainer-exp">🗓 9 years experience</div>
+        </div>
+      </div>
+      <div class="trainer-card">
+        <div class="trainer-photo-wrap" style="background:linear-gradient(135deg,#b5838d,#e8c8cc)">
+          <img class="trainer-photo" src="https://ui-avatars.com/api/?name=Sophia+Kim&background=b5838d&color=fff&size=200" alt="Sophia Kim" loading="lazy" width="130" height="130">
+        </div>
+        <div class="trainer-info">
+          <div class="trainer-name">Sophia Kim</div>
+          <div class="trainer-role">Cardio & Dance Fitness Trainer</div>
+          <div class="trainer-certs">
+            <span class="cert-badge">AFAA-CPT</span>
+            <span class="cert-badge">Zumba Gold</span>
+            <span class="cert-badge">Kickboxing</span>
+          </div>
+          <div class="trainer-exp">🗓 6 years experience</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="contact.html" class="btn btn-outline">Book a PT Session</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AMENITIES ===== -->
+<section class="section section-alt" aria-labelledby="amenities-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Facilities</div>
+      <h2 class="section-title section-title-deco" id="amenities-heading">Premium Amenities</h2>
+      <p class="section-subtitle">Everything you need for a complete, comfortable fitness experience.</p>
+    </div>
+
+    <div class="grid grid-3 stagger-children">
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">❄️</div>
+        <div>
+          <div class="amenity-name">Air Conditioning</div>
+          <div class="amenity-desc">Fully climate-controlled environment year-round for maximum comfort during workouts.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">🗄️</div>
+        <div>
+          <div class="amenity-name">Locker Rooms</div>
+          <div class="amenity-desc">Secure, spacious locker rooms with digital locks and ample storage space.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">🚿</div>
+        <div>
+          <div class="amenity-name">Showers</div>
+          <div class="amenity-desc">Premium shower facilities with hot water, toiletries, and hair dryers available.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">💨</div>
+        <div>
+          <div class="amenity-name">Steam Bath</div>
+          <div class="amenity-desc">State-of-the-art steam room for muscle recovery and relaxation after workouts.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">🌡️</div>
+        <div>
+          <div class="amenity-name">Sauna</div>
+          <div class="amenity-desc">Finnish dry sauna for deep muscle relaxation and improved cardiovascular health.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">💧</div>
+        <div>
+          <div class="amenity-name">Drinking Water</div>
+          <div class="amenity-desc">Filtered drinking water stations and a protein shake bar with healthy refreshments.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">📶</div>
+        <div>
+          <div class="amenity-name">Free WiFi</div>
+          <div class="amenity-desc">High-speed WiFi throughout the facility — stream your workouts or track progress on your app.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">🅿️</div>
+        <div>
+          <div class="amenity-name">Free Parking</div>
+          <div class="amenity-desc">100+ spot free parking lot right outside the gym. Motorcycle parking also available.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">📹</div>
+        <div>
+          <div class="amenity-name">CCTV Security</div>
+          <div class="amenity-desc">24/7 CCTV surveillance for your safety. Secure facility with trained security staff.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">🎵</div>
+        <div>
+          <div class="amenity-name">Music System</div>
+          <div class="amenity-desc">Premium sound system with motivating playlists curated to boost your workout performance.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">👩</div>
+        <div>
+          <div class="amenity-name">Female Trainer Support</div>
+          <div class="amenity-desc">Multiple certified female trainers available for women who prefer female coaching.</div>
+        </div>
+      </div>
+      <div class="amenity-card">
+        <div class="amenity-icon" aria-hidden="true">📱</div>
+        <div>
+          <div class="amenity-name">Mobile App</div>
+          <div class="amenity-desc">Track workouts, book classes, and manage your membership through our dedicated app.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ACHIEVEMENTS ===== -->
+<section class="section" aria-labelledby="achievements-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Recognition</div>
+      <h2 class="section-title section-title-deco" id="achievements-heading">Awards & Achievements</h2>
+      <p class="section-subtitle">Our commitment to excellence has been recognized by the fitness industry and our community.</p>
+    </div>
+
+    <div class="grid grid-4 stagger-children">
+      <div class="achievement-card">
+        <div class="achievement-icon" aria-hidden="true">🏆</div>
+        <div class="achievement-title">Best Gym Award</div>
+        <div class="achievement-desc">Voted Best Gym in Muscle City by Fitness Magazine — 3 years running (2019–2021)</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon" aria-hidden="true">⭐</div>
+        <div class="achievement-title">4.9 Google Rating</div>
+        <div class="achievement-desc">500+ verified Google reviews with an average rating of 4.9/5 stars</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon" aria-hidden="true">🎓</div>
+        <div class="achievement-title">NASM Partner Gym</div>
+        <div class="achievement-desc">Official NASM certified training facility with all trainers holding active national certifications</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon" aria-hidden="true">💪</div>
+        <div class="achievement-title">1,000+ Transformations</div>
+        <div class="achievement-desc">Over 1,000 documented member transformation success stories and counting</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon" aria-hidden="true">🥇</div>
+        <div class="achievement-title">CrossFit Affiliate</div>
+        <div class="achievement-desc">Official CrossFit Affiliate gym with Level 3 certified CrossFit coaches on staff</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon" aria-hidden="true">🌱</div>
+        <div class="achievement-title">Green Gym Certified</div>
+        <div class="achievement-desc">Eco-friendly facility using renewable energy sources and sustainable equipment</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon" aria-hidden="true">🎖️</div>
+        <div class="achievement-title">Precision Nutrition Partner</div>
+        <div class="achievement-desc">Certified Precision Nutrition Level 2 coaching available for all members</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon" aria-hidden="true">👥</div>
+        <div class="achievement-title">5,000+ Members</div>
+        <div class="achievement-desc">Proudly serving 5,000+ active members from all walks of life and fitness levels</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-section" aria-labelledby="about-cta-heading">
+  <div class="container" style="position:relative;z-index:1;">
+    <h2 class="reveal" id="about-cta-heading">Become Part of the IronPeak Family</h2>
+    <p class="reveal delay-1">Join 5,000+ members who have already transformed their lives. Your first day is FREE — no commitment needed.</p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;" class="reveal delay-2">
+      <a href="contact.html#trial" class="btn btn-white btn-lg">🎯 Book Free Trial</a>
+      <a href="packages.html" class="btn btn-outline" style="border-color:#fff;color:#fff;">View Packages</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><span class="logo-icon" aria-hidden="true">⚡</span><span>Iron<span class="logo-highlight">Peak</span></span></a>
+        <p>Transform your body and life at IronPeak Gym. Premier fitness center with certified trainers, modern equipment, and a community that cares.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+          <a href="https://facebook.com/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">👥</a>
+          <a href="https://youtube.com/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶️</a>
+          <a href="https://linkedin.com/company/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">💼</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer-heading">Quick Links</h3>
+        <nav class="footer-links">
+          <a href="index.html">Home</a><a href="about.html">About Us</a>
+          <a href="services.html">Services</a><a href="packages.html">Packages</a>
+          <a href="workouts.html">Workouts</a><a href="reviews.html">Reviews</a>
+          <a href="faq.html">FAQ</a><a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h3 class="footer-heading">Services</h3>
+        <nav class="footer-links">
+          <a href="services.html">Personal Training</a><a href="services.html">Weight Loss</a>
+          <a href="services.html">Muscle Building</a><a href="services.html">Yoga</a>
+          <a href="services.html">Zumba</a><a href="services.html">HIIT</a>
+          <a href="services.html">CrossFit</a><a href="services.html">Nutrition</a>
+        </nav>
+      </div>
+      <div>
+        <h3 class="footer-heading">Contact</h3>
+        <address style="font-style:normal;">
+          <div class="footer-contact-item"><span class="contact-icon" aria-hidden="true">📍</span><span>123 Fitness Boulevard, Muscle City, CA 90210</span></div>
+          <div class="footer-contact-item"><span class="contact-icon" aria-hidden="true">📞</span><a href="tel:+18001476732" style="color:rgba(255,255,255,.75);">+1-800-IRONPEAK</a></div>
+          <div class="footer-contact-item"><span class="contact-icon" aria-hidden="true">📧</span><a href="mailto:info@ironpeakgym.com" style="color:rgba(255,255,255,.75);">info@ironpeakgym.com</a></div>
+        </address>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem;width:100%;">
+      <span>© 2024 IronPeak Gym. All rights reserved.</span>
+      <span>Made with ❤️ for fitness enthusiasts</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+  <button id="lightboxPrev" aria-label="Previous" style="position:absolute;left:1rem;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);border:none;color:#fff;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:1.25rem;">‹</button>
+  <img id="lightboxImg" src="" alt="" loading="lazy">
+  <button id="lightboxNext" aria-label="Next" style="position:absolute;right:1rem;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);border:none;color:#fff;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:1.25rem;">›</button>
+  <div id="lightboxCaption" style="position:absolute;bottom:2rem;color:rgba(255,255,255,.8);font-size:.9rem;"></div>
+</div>
+
+<!-- Floating Buttons -->
+<div class="floating-btns">
+  <button class="float-btn float-top" id="scrollTopBtn" aria-label="Scroll to top">↑<span class="float-tooltip" aria-hidden="true">Back to Top</span></button>
+  <a href="tel:+18001476732" class="float-btn float-call" aria-label="Call us">📞<span class="float-tooltip" aria-hidden="true">Call Now</span></a>
+  <a href="https://wa.me/18001476732" class="float-btn float-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">💬<span class="float-tooltip" aria-hidden="true">WhatsApp</span></a>
+</div>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

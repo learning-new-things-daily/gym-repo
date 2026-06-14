@@ -1,0 +1,194 @@
+/* ===================================================
+   IronPeak Gym — Responsive CSS
+   =================================================== */
+
+/* ---- Large Desktop (>1400px) ---- */
+@media (min-width: 1400px) {
+  :root { --max-width: 1320px; }
+  .hero-title { font-size: 5rem; }
+}
+
+/* ---- Desktop (>1024px) ---- */
+@media (min-width: 1024px) {
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+  }
+  .hero-image-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ---- Tablet Landscape (≤1024px) ---- */
+@media (max-width: 1024px) {
+  :root { --nav-height: 68px; }
+
+  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+  .nav-actions .btn { display: none; }
+  .nav-actions .btn-primary { display: inline-flex; }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .hero-content { padding-bottom: 3rem; }
+
+  .hero-image-side { display: none; }
+}
+
+/* ---- Tablet Portrait (≤768px) ---- */
+@media (max-width: 768px) {
+  :root { --nav-height: 64px; }
+
+  .section { padding: 3.5rem 0; }
+  .section-header { margin-bottom: 2rem; }
+
+  .hero { min-height: 90vh; }
+  .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
+  .hero-cta { flex-direction: column; }
+  .hero-cta .btn { width: 100%; justify-content: center; }
+  .hero-stats { gap: 1.5rem; }
+
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stat-item .stat-number { font-size: 2.5rem; }
+
+  .features-grid { grid-template-columns: 1fr; }
+
+  .packages-grid { grid-template-columns: 1fr; }
+  .package-card.popular { transform: none; }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-row { grid-template-columns: 1fr; }
+
+  .contact-form { padding: 1.5rem; }
+
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .plan-table { font-size: .82rem; }
+  .plan-table th, .plan-table td { padding: .6rem .75rem; }
+
+  .workout-meta { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---- Mobile (≤480px) ---- */
+@media (max-width: 480px) {
+  :root { --nav-height: 60px; }
+
+  .container { padding: 0 1rem; }
+
+  .section { padding: 3rem 0; }
+
+  .hero-title { font-size: clamp(1.75rem, 9vw, 2.5rem); }
+  .hero-subtitle { font-size: .95rem; }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .stat-item .stat-number { font-size: 2.2rem; }
+
+  .section-title { font-size: 1.6rem; }
+
+  .grid-4, .grid-3 { grid-template-columns: 1fr; }
+
+  .gallery-grid { grid-template-columns: 1fr 1fr; }
+
+  .floating-btns { bottom: 1rem; right: 1rem; }
+  .float-btn { width: 48px; height: 48px; font-size: 1.2rem; }
+
+  .tabs { gap: .25rem; }
+  .tab-btn { padding: .5rem .85rem; font-size: .82rem; }
+
+  .package-card { padding: 1.5rem; }
+
+  .calculator-card { padding: 1.25rem; }
+
+  .contact-form { padding: 1.25rem; }
+
+  .trainer-photo-wrap { height: 180px; }
+
+  .page-hero { padding: calc(var(--nav-height) + 2rem) 0 2.5rem; }
+
+  .nav-actions .btn-primary { display: none; }
+}
+
+/* ---- Extra Small (≤360px) ---- */
+@media (max-width: 360px) {
+  .hero-stats { grid-template-columns: 1fr 1fr; }
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .workout-meta { grid-template-columns: 1fr 1fr; }
+}
+
+/* ---- Print Styles ---- */
+@media print {
+  .navbar, .floating-btns, .nav-drawer, .nav-drawer-overlay, .lightbox { display: none !important; }
+  .section { padding: 1.5rem 0; }
+  body { background: #fff; color: #000; }
+}
+
+/* ---- High DPI / Retina ---- */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .nav-logo .logo-icon { image-rendering: -webkit-optimize-contrast; }
+}
+
+/* ---- Reduced Motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- Landscape on Mobile ---- */
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero { min-height: auto; }
+  .hero-content { padding-top: calc(var(--nav-height) + 1.5rem); }
+}
+
+/* ---- Focus Styles for Keyboard Nav ---- */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-alt); }
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* ---- Selection ---- */
+::selection {
+  background: rgba(230,57,70,.2);
+  color: var(--heading);
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Can I cancel my membership at any time?",
+    "answer": "Yes, you can cancel your monthly membership with 30 days written notice. For annual plans, cancellations are subject to our refund policy. Please visit the front desk or email us at info@ironpeakgym.com for assistance."
+  },
+  {
+    "id": 2,
+    "question": "How much does a personal trainer cost?",
+    "answer": "Personal training sessions start at $40 per session. We offer packages of 10 sessions ($350), 20 sessions ($650), and monthly unlimited PT ($500/month). Premium members receive discounted PT rates."
+  },
+  {
+    "id": 3,
+    "question": "What are the gym timings?",
+    "answer": "We are open Monday to Friday: 5:00 AM – 11:00 PM, Saturday: 6:00 AM – 10:00 PM, and Sunday: 7:00 AM – 9:00 PM. Premium members enjoy 24/7 access. Holiday hours may vary — check our social media for updates."
+  },
+  {
+    "id": 4,
+    "question": "Is a free trial available?",
+    "answer": "Absolutely! We offer a complimentary 1-day free trial for all new visitors. You can book your free trial online via our website, by calling us, or by visiting the gym in person. No commitment required."
+  },
+  {
+    "id": 5,
+    "question": "Is parking available at the gym?",
+    "answer": "Yes, we provide free parking for up to 100 vehicles right outside the gym. Motorcycle parking is also available. Parking is free for all members and guests during their visit."
+  },
+  {
+    "id": 6,
+    "question": "Do I get access to locker rooms and showers?",
+    "answer": "Yes! All membership plans include access to our modern locker rooms and shower facilities. We provide secure lockers (bring your own lock, or purchase one at the front desk for $10). Towel service is available for Premium members."
+  },
+  {
+    "id": 7,
+    "question": "What is the refund policy?",
+    "answer": "Monthly memberships are non-refundable once the billing cycle starts. For annual or long-term plans, we offer a pro-rated refund if you cancel within the first 15 days. After 15 days, no cash refund is given, but you may transfer the remaining balance to a family member or friend."
+  },
+  {
+    "id": 8,
+    "question": "Do you offer couple or family memberships?",
+    "answer": "Yes! We have a Couple Plan starting at $79/month for 2 people and a Family Plan starting at $129/month for up to 4 members. These plans offer great savings compared to individual memberships. Visit our Packages page for full details."
+  },
+  {
+    "id": 9,
+    "question": "Are female trainers available?",
+    "answer": "Yes! We have certified female personal trainers available for all fitness levels. You can specifically request a female trainer when booking a PT session. All our trainers are nationally certified and experienced professionals."
+  },
+  {
+    "id": 10,
+    "question": "Do you provide diet and nutrition support?",
+    "answer": "Absolutely! We offer nutrition consultations with our certified nutritionist. Standard and Premium members get free consultation sessions. We also provide personalized meal plans, macro tracking guidance, and supplement advice."
+  },
+  {
+    "id": 11,
+    "question": "Can I freeze my membership?",
+    "answer": "Yes, members can freeze their membership for up to 2 months per year (minimum 2-week freeze period) due to travel, injury, or other reasons. A small administrative fee of $5 applies. Contact our front desk to request a freeze."
+  },
+  {
+    "id": 12,
+    "question": "What classes do you offer?",
+    "answer": "We offer a wide range of group fitness classes including Yoga, Zumba, HIIT, CrossFit, Spinning, Pilates, Kickboxing, and more. Check our weekly class schedule on the app or at the front desk. Basic members get 2 classes/month; Standard and Premium get unlimited access."
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "basic",
+    "name": "Basic",
+    "badge": "",
+    "price": {
+      "monthly": 29,
+      "quarterly": 79,
+      "halfYearly": 149,
+      "annual": 279
+    },
+    "joiningFee": 25,
+    "features": [
+      "Access to gym floor",
+      "Cardio equipment",
+      "Free weights area",
+      "Locker room access",
+      "2 group classes/month",
+      "Fitness assessment"
+    ],
+    "color": "silver"
+  },
+  {
+    "id": "standard",
+    "name": "Standard",
+    "badge": "Popular",
+    "price": {
+      "monthly": 49,
+      "quarterly": 129,
+      "halfYearly": 239,
+      "annual": 449
+    },
+    "joiningFee": 0,
+    "features": [
+      "All Basic features",
+      "Unlimited group classes",
+      "Steam bath & sauna access",
+      "1 PT session/month",
+      "Nutrition consultation",
+      "Guest pass (2/month)",
+      "Mobile app access",
+      "Progress tracking"
+    ],
+    "color": "gold"
+  },
+  {
+    "id": "premium",
+    "name": "Premium",
+    "badge": "Best Value",
+    "price": {
+      "monthly": 79,
+      "quarterly": 209,
+      "halfYearly": 389,
+      "annual": 729
+    },
+    "joiningFee": 0,
+    "features": [
+      "All Standard features",
+      "4 PT sessions/month",
+      "Customized workout plan",
+      "Customized diet plan",
+      "Priority class booking",
+      "Body composition analysis",
+      "Unlimited guest passes",
+      "24/7 gym access",
+      "Towel service"
+    ],
+    "color": "platinum"
+  },
+  {
+    "id": "student",
+    "name": "Student Plan",
+    "badge": "For Students",
+    "price": {
+      "monthly": 25,
+      "quarterly": 65,
+      "halfYearly": 119,
+      "annual": 219
+    },
+    "joiningFee": 15,
+    "features": [
+      "Full gym floor access",
+      "Cardio & weights",
+      "2 group classes/month",
+      "Valid student ID required",
+      "Locker room access"
+    ],
+    "color": "blue",
+    "note": "Valid student ID required at enrollment."
+  },
+  {
+    "id": "couple",
+    "name": "Couple Plan",
+    "badge": "Save Together",
+    "price": {
+      "monthly": 79,
+      "quarterly": 209,
+      "halfYearly": 389,
+      "annual": 699
+    },
+    "joiningFee": 30,
+    "features": [
+      "2 Standard memberships",
+      "Unlimited group classes",
+      "Couple workout sessions",
+      "Steam & sauna access",
+      "1 joint PT session/month",
+      "Progress tracking for both"
+    ],
+    "color": "rose"
+  },
+  {
+    "id": "family",
+    "name": "Family Plan",
+    "badge": "Family First",
+    "price": {
+      "monthly": 129,
+      "quarterly": 339,
+      "halfYearly": 629,
+      "annual": 1149
+    },
+    "joiningFee": 50,
+    "features": [
+      "Up to 4 family members",
+      "All Standard features per member",
+      "Kids fitness classes",
+      "Family nutrition workshop/quarter",
+      "Dedicated family locker",
+      "Priority booking"
+    ],
+    "color": "green"
+  }
+]
