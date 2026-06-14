@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Mike Torres",
+    "role": "Head Trainer & Strength Coach",
+    "photo": "https://ui-avatars.com/api/?name=Mike+Torres&background=e63946&color=fff&size=200",
+    "specialization": ["Strength Training", "Powerlifting", "Body Transformation"],
+    "certifications": ["NASM-CPT", "CSCS", "CrossFit L2"],
+    "experience": 12,
+    "bio": "Mike is a nationally certified strength and conditioning specialist with over 12 years of coaching experience. He has helped hundreds of clients achieve their body transformation goals.",
+    "instagram": "https://instagram.com/"
+  },
+  {
+    "id": 2,
+    "name": "Jennifer Lee",
+    "role": "Yoga & Wellness Coach",
+    "photo": "https://ui-avatars.com/api/?name=Jennifer+Lee&background=f4a261&color=fff&size=200",
+    "specialization": ["Yoga", "Pilates", "Mindfulness", "Flexibility"],
+    "certifications": ["RYT-500", "ACE-CPT", "Pilates Certified"],
+    "experience": 10,
+    "bio": "Jennifer brings a holistic approach to fitness, combining yoga, mindfulness, and movement science. Her classes focus on both physical and mental well-being.",
+    "instagram": "https://instagram.com/"
+  },
+  {
+    "id": 3,
+    "name": "Carlos Mendez",
+    "role": "HIIT & CrossFit Specialist",
+    "photo": "https://ui-avatars.com/api/?name=Carlos+Mendez&background=2a9d8f&color=fff&size=200",
+    "specialization": ["CrossFit", "HIIT", "Functional Fitness", "Weight Loss"],
+    "certifications": ["CrossFit L3", "NASM-CPT", "TRX Certified"],
+    "experience": 8,
+    "bio": "Carlos is an elite CrossFit coach known for his high-energy classes and results-driven training programs. His HIIT sessions are legendary for calorie burning.",
+    "instagram": "https://instagram.com/"
+  },
+  {
+    "id": 4,
+    "name": "Priya Kapoor",
+    "role": "Nutrition & Weight Management Coach",
+    "photo": "https://ui-avatars.com/api/?name=Priya+Kapoor&background=e9c46a&color=333&size=200",
+    "specialization": ["Nutrition", "Weight Loss", "Zumba", "Women's Fitness"],
+    "certifications": ["Precision Nutrition L2", "ACE-CPT", "Zumba Instructor"],
+    "experience": 7,
+    "bio": "Priya specializes in helping women achieve their fitness and weight management goals through evidence-based nutrition and fun, effective workout programs.",
+    "instagram": "https://instagram.com/"
+  },
+  {
+    "id": 5,
+    "name": "Ryan Walsh",
+    "role": "Bodybuilding & Muscle Building Coach",
+    "photo": "https://ui-avatars.com/api/?name=Ryan+Walsh&background=457b9d&color=fff&size=200",
+    "specialization": ["Bodybuilding", "Hypertrophy", "Competition Prep"],
+    "certifications": ["ISSA-CPT", "NASM-PES", "NPC Judge"],
+    "experience": 9,
+    "bio": "Ryan is a competitive bodybuilder and certified trainer specializing in hypertrophy training and competition preparation. He has guided 20+ clients to the competition stage.",
+    "instagram": "https://instagram.com/"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Kim",
+    "role": "Cardio & Dance Fitness Trainer",
+    "photo": "https://ui-avatars.com/api/?name=Sophia+Kim&background=b5838d&color=fff&size=200",
+    "specialization": ["Cardio", "Zumba", "Dance Fitness", "Kickboxing"],
+    "certifications": ["AFAA-CPT", "Zumba Gold", "Kickboxing Certified"],
+    "experience": 6,
+    "bio": "Sophia makes fitness fun! Her high-energy dance fitness and cardio classes attract members of all ages. She believes working out should feel like a celebration.",
+    "instagram": "https://instagram.com/"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "name": "IronPeak Gym",
+  "tagline": "Transform Your Body. Transform Your Life.",
+  "description": "IronPeak Gym is a premier fitness center dedicated to helping you achieve your health and fitness goals. With state-of-the-art equipment, certified trainers, and a motivating community, we are your ultimate fitness destination.",
+  "founded": "2015",
+  "phone": "+1-800-IRONPEAK",
+  "whatsapp": "+18001476732",
+  "email": "info@ironpeakgym.com",
+  "address": "123 Fitness Boulevard, Muscle City, CA 90210",
+  "mapLink": "https://maps.google.com/?q=IronPeak+Gym+Fitness+Boulevard",
+  "googleBusinessUrl": "https://g.page/r/REPLACE_WITH_GOOGLE_BUSINESS_ID/review",
+  "workingHours": {
+    "weekdays": "5:00 AM – 11:00 PM",
+    "saturday": "6:00 AM – 10:00 PM",
+    "sunday": "7:00 AM – 9:00 PM"
+  },
+  "social": {
+    "instagram": "https://instagram.com/ironpeakgym",
+    "facebook": "https://facebook.com/ironpeakgym",
+    "youtube": "https://youtube.com/ironpeakgym",
+    "linkedin": "https://linkedin.com/company/ironpeakgym",
+    "googleBusiness": "https://g.page/ironpeakgym"
+  },
+  "stats": {
+    "members": 5000,
+    "trainers": 25,
+    "equipment": 200,
+    "yearsExperience": 9
+  },
+  "hero": {
+    "headline": "Transform Your Body. Transform Your Life.",
+    "subheadline": "Join IronPeak Gym — where champions are made every day. Expert trainers, premium equipment, and a community that pushes you to be your best.",
+    "ctaPrimary": "Join Now",
+    "ctaSecondary": "Book Free Trial"
+  }
+}

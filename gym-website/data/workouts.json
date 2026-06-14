@@ -1,0 +1,357 @@
+{
+  "beginner": {
+    "chest": [
+      {
+        "name": "Push Ups",
+        "sets": 3,
+        "reps": "10–15",
+        "rest": "60 sec",
+        "muscles": ["Chest", "Triceps", "Shoulders"],
+        "tips": "Keep your body in a straight line. Don't let hips sag.",
+        "difficulty": "beginner"
+      },
+      {
+        "name": "Incline Push Ups",
+        "sets": 3,
+        "reps": "12–15",
+        "rest": "60 sec",
+        "muscles": ["Lower Chest", "Triceps"],
+        "tips": "Use a bench or elevated surface to reduce difficulty.",
+        "difficulty": "beginner"
+      },
+      {
+        "name": "Dumbbell Bench Press",
+        "sets": 3,
+        "reps": "10–12",
+        "rest": "90 sec",
+        "muscles": ["Chest", "Triceps", "Front Deltoids"],
+        "tips": "Lower weights until elbows are at 90°. Control the descent.",
+        "difficulty": "beginner"
+      }
+    ],
+    "back": [
+      {
+        "name": "Assisted Pull Ups",
+        "sets": 3,
+        "reps": "8–10",
+        "rest": "90 sec",
+        "muscles": ["Latissimus Dorsi", "Biceps", "Rhomboids"],
+        "tips": "Use an assisted pull-up machine or resistance band for help.",
+        "difficulty": "beginner"
+      },
+      {
+        "name": "Dumbbell Rows",
+        "sets": 3,
+        "reps": "10–12 per arm",
+        "rest": "75 sec",
+        "muscles": ["Lats", "Rhomboids", "Rear Delts"],
+        "tips": "Keep your back flat. Pull elbow back towards hip.",
+        "difficulty": "beginner"
+      },
+      {
+        "name": "Lat Pulldown",
+        "sets": 3,
+        "reps": "10–12",
+        "rest": "90 sec",
+        "muscles": ["Latissimus Dorsi", "Biceps"],
+        "tips": "Keep chest up and pull the bar to your upper chest.",
+        "difficulty": "beginner"
+      }
+    ],
+    "legs": [
+      {
+        "name": "Bodyweight Squats",
+        "sets": 3,
+        "reps": "15–20",
+        "rest": "60 sec",
+        "muscles": ["Quadriceps", "Hamstrings", "Glutes"],
+        "tips": "Keep chest up, weight on heels. Knees track over toes.",
+        "difficulty": "beginner"
+      },
+      {
+        "name": "Lunges",
+        "sets": 3,
+        "reps": "10 per leg",
+        "rest": "60 sec",
+        "muscles": ["Quadriceps", "Glutes", "Hamstrings"],
+        "tips": "Step forward, lower back knee toward floor. Stay upright.",
+        "difficulty": "beginner"
+      },
+      {
+        "name": "Leg Press",
+        "sets": 3,
+        "reps": "12–15",
+        "rest": "90 sec",
+        "muscles": ["Quadriceps", "Hamstrings", "Glutes"],
+        "tips": "Don't lock knees at the top. Keep feet shoulder-width apart.",
+        "difficulty": "beginner"
+      }
+    ],
+    "shoulders": [
+      {
+        "name": "Dumbbell Shoulder Press",
+        "sets": 3,
+        "reps": "10–12",
+        "rest": "75 sec",
+        "muscles": ["Deltoids", "Triceps", "Trapezius"],
+        "tips": "Press straight up, don't arch back excessively.",
+        "difficulty": "beginner"
+      },
+      {
+        "name": "Lateral Raises",
+        "sets": 3,
+        "reps": "12–15",
+        "rest": "60 sec",
+        "muscles": ["Lateral Deltoids"],
+        "tips": "Use light weight. Raise to shoulder height only.",
+        "difficulty": "beginner"
+      }
+    ],
+    "arms": [
+      {
+        "name": "Dumbbell Bicep Curls",
+        "sets": 3,
+        "reps": "10–12",
+        "rest": "60 sec",
+        "muscles": ["Biceps", "Brachialis"],
+        "tips": "Keep elbows close to sides. Don't swing the weight.",
+        "difficulty": "beginner"
+      },
+      {
+        "name": "Tricep Pushdowns",
+        "sets": 3,
+        "reps": "12–15",
+        "rest": "60 sec",
+        "muscles": ["Triceps"],
+        "tips": "Keep elbows fixed. Fully extend arms at the bottom.",
+        "difficulty": "beginner"
+      }
+    ]
+  },
+  "intermediate": {
+    "chest": [
+      {
+        "name": "Barbell Bench Press",
+        "sets": 4,
+        "reps": "8–10",
+        "rest": "90 sec",
+        "muscles": ["Chest", "Triceps", "Front Deltoids"],
+        "tips": "Arch back slightly, retract shoulder blades. Touch bar to lower chest.",
+        "difficulty": "intermediate"
+      },
+      {
+        "name": "Incline Dumbbell Press",
+        "sets": 3,
+        "reps": "10–12",
+        "rest": "75 sec",
+        "muscles": ["Upper Chest", "Front Deltoids"],
+        "tips": "Set bench at 30–45°. Lower to upper chest.",
+        "difficulty": "intermediate"
+      },
+      {
+        "name": "Cable Flyes",
+        "sets": 3,
+        "reps": "12–15",
+        "rest": "60 sec",
+        "muscles": ["Chest", "Front Deltoids"],
+        "tips": "Maintain slight elbow bend throughout. Feel the stretch.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "back": [
+      {
+        "name": "Pull Ups",
+        "sets": 4,
+        "reps": "6–10",
+        "rest": "90 sec",
+        "muscles": ["Lats", "Biceps", "Rhomboids"],
+        "tips": "Full range of motion. Chin over bar, arms fully extended at bottom.",
+        "difficulty": "intermediate"
+      },
+      {
+        "name": "Barbell Rows",
+        "sets": 4,
+        "reps": "8–10",
+        "rest": "90 sec",
+        "muscles": ["Lats", "Rhomboids", "Trapezius", "Biceps"],
+        "tips": "Hinge at hips, back parallel to floor. Pull bar to belly button.",
+        "difficulty": "intermediate"
+      },
+      {
+        "name": "Seated Cable Row",
+        "sets": 3,
+        "reps": "10–12",
+        "rest": "75 sec",
+        "muscles": ["Middle Back", "Lats", "Biceps"],
+        "tips": "Keep chest up. Pull to lower abdomen, squeeze at peak.",
+        "difficulty": "intermediate"
+      }
+    ],
+    "legs": [
+      {
+        "name": "Barbell Squats",
+        "sets": 4,
+        "reps": "8–10",
+        "rest": "120 sec",
+        "muscles": ["Quadriceps", "Hamstrings", "Glutes", "Core"],
+        "tips": "Bar on upper traps. Break parallel, drive through heels.",
+        "difficulty": "intermediate"
+      },
+      {
+        "name": "Romanian Deadlift",
+        "sets": 3,
+        "reps": "10–12",
+        "rest": "90 sec",
+        "muscles": ["Hamstrings", "Glutes", "Lower Back"],
+        "tips": "Keep bar close to legs. Hinge at hips, slight knee bend.",
+        "difficulty": "intermediate"
+      },
+      {
+        "name": "Bulgarian Split Squat",
+        "sets": 3,
+        "reps": "10 per leg",
+        "rest": "90 sec",
+        "muscles": ["Quadriceps", "Glutes", "Hip Flexors"],
+        "tips": "Rear foot elevated on bench. Keep front shin vertical.",
+        "difficulty": "intermediate"
+      }
+    ]
+  },
+  "advanced": {
+    "chest": [
+      {
+        "name": "Barbell Bench Press (Heavy)",
+        "sets": 5,
+        "reps": "3–5",
+        "rest": "180 sec",
+        "muscles": ["Chest", "Triceps", "Front Deltoids"],
+        "tips": "Use spotter for heavy sets. Explosive concentric, controlled eccentric.",
+        "difficulty": "advanced"
+      },
+      {
+        "name": "Weighted Dips",
+        "sets": 4,
+        "reps": "6–8",
+        "rest": "120 sec",
+        "muscles": ["Lower Chest", "Triceps"],
+        "tips": "Lean forward for chest emphasis. Full range of motion.",
+        "difficulty": "advanced"
+      }
+    ],
+    "back": [
+      {
+        "name": "Weighted Pull Ups",
+        "sets": 5,
+        "reps": "4–6",
+        "rest": "120 sec",
+        "muscles": ["Lats", "Biceps"],
+        "tips": "Use weight belt or hold dumbbell between feet.",
+        "difficulty": "advanced"
+      },
+      {
+        "name": "Deadlift",
+        "sets": 5,
+        "reps": "3–5",
+        "rest": "180 sec",
+        "muscles": ["Full Body", "Lower Back", "Hamstrings", "Glutes", "Traps"],
+        "tips": "Neutral spine throughout. Hip hinge pattern. Bar stays over mid-foot.",
+        "difficulty": "advanced"
+      }
+    ],
+    "legs": [
+      {
+        "name": "Front Squat",
+        "sets": 4,
+        "reps": "5–6",
+        "rest": "150 sec",
+        "muscles": ["Quadriceps", "Core", "Upper Back"],
+        "tips": "Elbows high, bar on front delts. More upright torso than back squat.",
+        "difficulty": "advanced"
+      }
+    ]
+  },
+  "weeklyPlans": {
+    "fatLoss": {
+      "name": "Fat Loss Plan",
+      "duration": "8 weeks",
+      "frequency": "5 days/week",
+      "schedule": [
+        { "day": "Monday", "focus": "Upper Body + HIIT", "duration": "60 min" },
+        { "day": "Tuesday", "focus": "Lower Body + Cardio", "duration": "60 min" },
+        { "day": "Wednesday", "focus": "Active Recovery + Yoga", "duration": "45 min" },
+        { "day": "Thursday", "focus": "Full Body Circuit", "duration": "45 min" },
+        { "day": "Friday", "focus": "HIIT + Core", "duration": "45 min" },
+        { "day": "Saturday", "focus": "Steady State Cardio", "duration": "40 min" },
+        { "day": "Sunday", "focus": "Rest", "duration": "" }
+      ]
+    },
+    "muscleGain": {
+      "name": "Muscle Gain Plan",
+      "duration": "12 weeks",
+      "frequency": "4–5 days/week",
+      "schedule": [
+        { "day": "Monday", "focus": "Chest & Triceps", "duration": "75 min" },
+        { "day": "Tuesday", "focus": "Back & Biceps", "duration": "75 min" },
+        { "day": "Wednesday", "focus": "Rest or Active Recovery", "duration": "" },
+        { "day": "Thursday", "focus": "Legs & Glutes", "duration": "75 min" },
+        { "day": "Friday", "focus": "Shoulders & Arms", "duration": "60 min" },
+        { "day": "Saturday", "focus": "Full Body or Lagging Muscle", "duration": "60 min" },
+        { "day": "Sunday", "focus": "Rest", "duration": "" }
+      ]
+    },
+    "strength": {
+      "name": "Strength Plan",
+      "duration": "16 weeks",
+      "frequency": "4 days/week",
+      "schedule": [
+        { "day": "Monday", "focus": "Squat Day (Heavy)", "duration": "90 min" },
+        { "day": "Tuesday", "focus": "Bench Press Day (Heavy)", "duration": "75 min" },
+        { "day": "Thursday", "focus": "Deadlift Day (Heavy)", "duration": "90 min" },
+        { "day": "Friday", "focus": "Overhead Press + Accessories", "duration": "75 min" }
+      ]
+    },
+    "beginner": {
+      "name": "Beginner Plan",
+      "duration": "6 weeks",
+      "frequency": "3 days/week",
+      "schedule": [
+        { "day": "Monday", "focus": "Full Body A", "duration": "45 min" },
+        { "day": "Wednesday", "focus": "Full Body B", "duration": "45 min" },
+        { "day": "Friday", "focus": "Full Body A", "duration": "45 min" }
+      ]
+    }
+  },
+  "bestPractices": {
+    "beforeWorkout": [
+      { "title": "Dynamic Warm-Up", "tip": "Spend 5–10 minutes doing light cardio and dynamic stretches to increase heart rate and blood flow to muscles." },
+      { "title": "Hydration", "tip": "Drink 16–20 oz of water 2 hours before workout. Sip 8 oz every 15–20 minutes during exercise." },
+      { "title": "Mobility Work", "tip": "Perform joint circles and mobility drills specific to the muscles you'll be training for better range of motion." }
+    ],
+    "duringWorkout": [
+      { "title": "Proper Form", "tip": "Always prioritize form over weight. Poor technique leads to injury and reduces training effectiveness." },
+      { "title": "Breathing", "tip": "Exhale during the effort (concentric), inhale during the release (eccentric). Never hold your breath." },
+      { "title": "Progressive Overload", "tip": "Gradually increase weight, reps, or sets each week to continuously challenge your muscles and drive adaptation." }
+    ],
+    "afterWorkout": [
+      { "title": "Cool-Down & Stretching", "tip": "Spend 5–10 minutes doing static stretches for trained muscles. Hold each stretch for 20–30 seconds." },
+      { "title": "Recovery", "tip": "Allow 48 hours rest for each muscle group. Sleep 7–9 hours for optimal recovery and muscle growth." },
+      { "title": "Protein Intake", "tip": "Consume 20–40g of protein within 30–60 minutes post-workout to support muscle repair and growth." }
+    ]
+  },
+  "nutrition": {
+    "macros": {
+      "protein": "0.8–1.2g per lb of bodyweight",
+      "carbs": "Adjust based on activity level and goals",
+      "fats": "0.3–0.5g per lb of bodyweight"
+    },
+    "tips": [
+      "Eat whole, unprocessed foods 80% of the time",
+      "Don't skip breakfast — fuel your morning training",
+      "Meal prep on weekends to stay consistent",
+      "Track your calories for at least 4 weeks to build awareness",
+      "Fiber is your friend — aim for 25–35g daily",
+      "Limit sugar and processed carbohydrates",
+      "Eat 5–6 small meals or 3 balanced meals — whatever works for you"
+    ]
+  }
+}

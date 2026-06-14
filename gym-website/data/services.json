@@ -1,0 +1,110 @@
+[
+  {
+    "id": "personal-training",
+    "name": "Personal Training",
+    "icon": "🏋️",
+    "description": "One-on-one sessions with certified personal trainers tailored to your specific goals, fitness level, and schedule. Get a customized workout plan, form correction, and continuous motivation.",
+    "benefits": ["Custom workout plan", "Form & technique guidance", "Faster results", "Accountability & motivation", "Injury prevention"],
+    "duration": "45–60 min per session",
+    "suitable": "All fitness levels"
+  },
+  {
+    "id": "strength-training",
+    "name": "Strength Training",
+    "icon": "💪",
+    "description": "Build raw strength and power using barbells, dumbbells, and machines. Our strength coaches guide you through progressive overload principles to maximize your gains safely.",
+    "benefits": ["Increased muscle mass", "Improved bone density", "Enhanced metabolism", "Better posture", "Injury resilience"],
+    "duration": "60 min per session",
+    "suitable": "Intermediate to Advanced"
+  },
+  {
+    "id": "weight-loss",
+    "name": "Weight Loss Programs",
+    "icon": "🔥",
+    "description": "Science-backed fat loss programs combining cardio, HIIT, strength training, and nutrition guidance for sustainable results. Lose fat, not muscle.",
+    "benefits": ["Structured fat loss plan", "Nutrition support", "Progress monitoring", "Metabolic conditioning", "Sustainable lifestyle changes"],
+    "duration": "45–60 min per session",
+    "suitable": "All fitness levels"
+  },
+  {
+    "id": "muscle-gain",
+    "name": "Muscle Gain Programs",
+    "icon": "🦾",
+    "description": "Evidence-based hypertrophy programs designed to pack on lean muscle mass. Combines periodized training with nutrition protocols for maximum anabolic results.",
+    "benefits": ["Hypertrophy focused", "Progressive overload", "Supplement guidance", "Body composition analysis", "Customized meal plans"],
+    "duration": "60–75 min per session",
+    "suitable": "Beginner to Advanced"
+  },
+  {
+    "id": "functional-fitness",
+    "name": "Functional Fitness",
+    "icon": "⚡",
+    "description": "Train for real-life movement patterns. Our functional fitness programs improve strength, balance, mobility, and coordination for everyday activities and athletic performance.",
+    "benefits": ["Improved daily movement", "Balance & coordination", "Core stability", "Reduced injury risk", "Athletic performance"],
+    "duration": "45 min per session",
+    "suitable": "All fitness levels"
+  },
+  {
+    "id": "cardio-training",
+    "name": "Cardio Training",
+    "icon": "🏃",
+    "description": "State-of-the-art cardio equipment including treadmills, ellipticals, bikes, rowing machines, and more. Improve cardiovascular health, endurance, and burn calories effectively.",
+    "benefits": ["Improved heart health", "Increased endurance", "Calorie burning", "Stress reduction", "Better sleep"],
+    "duration": "30–60 min per session",
+    "suitable": "All fitness levels"
+  },
+  {
+    "id": "crossfit",
+    "name": "CrossFit",
+    "icon": "🎯",
+    "description": "High-intensity functional training combining weightlifting, gymnastics, and cardio. Our CrossFit classes build elite fitness in a competitive, community-driven environment.",
+    "benefits": ["Total body conditioning", "Community motivation", "Varied workouts", "Mental toughness", "Athletic improvement"],
+    "duration": "60 min per session",
+    "suitable": "Intermediate to Advanced"
+  },
+  {
+    "id": "yoga",
+    "name": "Yoga",
+    "icon": "🧘",
+    "description": "From beginner Hatha to advanced Vinyasa, our yoga classes improve flexibility, build strength, reduce stress, and enhance mental clarity. All levels welcome.",
+    "benefits": ["Increased flexibility", "Stress relief", "Mental clarity", "Core strength", "Better sleep quality"],
+    "duration": "60 min per session",
+    "suitable": "All fitness levels"
+  },
+  {
+    "id": "zumba",
+    "name": "Zumba",
+    "icon": "💃",
+    "description": "Dance your way to fitness! Zumba combines Latin and international music with fun, easy-to-follow dance moves for an energetic full-body workout.",
+    "benefits": ["Fun calorie burning", "Cardiovascular health", "Coordination improvement", "Mood booster", "Social & community"],
+    "duration": "45–60 min per session",
+    "suitable": "All fitness levels"
+  },
+  {
+    "id": "hiit",
+    "name": "HIIT",
+    "icon": "⚡",
+    "description": "High-Intensity Interval Training maximizes calorie burn in minimal time. Alternating between intense bursts and recovery periods, HIIT boosts metabolism for hours after workout.",
+    "benefits": ["Maximum calorie burn", "Afterburn effect", "No equipment needed", "Short & effective", "Improves VO2 max"],
+    "duration": "30–45 min per session",
+    "suitable": "Intermediate to Advanced"
+  },
+  {
+    "id": "nutrition",
+    "name": "Nutrition Counseling",
+    "icon": "🥗",
+    "description": "Certified nutritionists provide personalized meal planning, macro calculations, supplement guidance, and ongoing support to complement your fitness program.",
+    "benefits": ["Personalized meal plans", "Macro & calorie tracking", "Supplement advice", "Food habit coaching", "Monthly check-ins"],
+    "duration": "30–60 min consultation",
+    "suitable": "All members"
+  },
+  {
+    "id": "online-coaching",
+    "name": "Online Coaching",
+    "icon": "📱",
+    "description": "Can't make it to the gym? Our certified trainers offer comprehensive online coaching with custom workout plans, video check-ins, nutrition guidance, and 24/7 app support.",
+    "benefits": ["Train anywhere", "Flexible scheduling", "App-based tracking", "Video form reviews", "Weekly check-ins"],
+    "duration": "Flexible",
+    "suitable": "All fitness levels"
+  }
+]

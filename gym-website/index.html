@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IronPeak Gym — Premier fitness center with certified trainers, modern equipment, and results-driven programs. Join today and transform your body!">
+  <meta name="keywords" content="gym, fitness, personal training, weight loss, muscle gain, yoga, crossfit, IronPeak Gym">
+  <meta name="author" content="IronPeak Gym">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="IronPeak Gym — Transform Your Body. Transform Your Life.">
+  <meta property="og:description" content="Premier fitness center with certified trainers, modern equipment, and a motivating community. Join IronPeak Gym today!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learning-new-things-daily.github.io/gym-repo/gym-website/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80">
+  <meta property="og:site_name" content="IronPeak Gym">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IronPeak Gym — Transform Your Body. Transform Your Life.">
+  <meta name="twitter:description" content="Premier fitness center with certified trainers, modern equipment, and a motivating community.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthClub",
+    "name": "IronPeak Gym",
+    "description": "Premier fitness center with certified trainers, modern equipment, and results-driven programs.",
+    "url": "https://learning-new-things-daily.github.io/gym-repo/gym-website/",
+    "telephone": "+1-800-IRONPEAK",
+    "email": "info@ironpeakgym.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Fitness Boulevard",
+      "addressLocality": "Muscle City",
+      "addressRegion": "CA",
+      "postalCode": "90210",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "05:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "06:00", "closes": "22:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "07:00", "closes": "21:00" }
+    ],
+    "sameAs": [
+      "https://instagram.com/ironpeakgym",
+      "https://facebook.com/ironpeakgym",
+      "https://youtube.com/ironpeakgym"
+    ],
+    "priceRange": "$$",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "5000" }
+  }
+  </script>
+
+  <title>IronPeak Gym — Transform Your Body. Transform Your Life.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+  <style>
+    /* ---- Extra styles for home page ---- */
+    .hero-image-side img {
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-xl);
+      max-height: 500px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .calorie-result-grid {
+      display: grid; grid-template-columns: repeat(3,1fr);
+      gap: .75rem; margin-bottom: 1rem;
+    }
+    .cal-item { text-align:center; padding:.75rem; background:var(--surface); border-radius:var(--radius-md); }
+    .cal-item.highlight { background:rgba(230,57,70,.08); border:1px solid rgba(230,57,70,.2); }
+    .cal-value { font-size:1.5rem; font-weight:900; font-family:var(--font-display); color:var(--primary); }
+    .cal-label { font-size:.72rem; color:var(--text-muted); margin-top:.2rem; text-transform:uppercase; letter-spacing:.05em; }
+    @media(max-width:480px) { .calorie-result-grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+
+<!-- Page Loader -->
+<div id="pageLoader" class="page-loader" aria-hidden="true">
+  <div class="loader-logo">⚡ IronPeak</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="nav-logo" aria-label="IronPeak Gym Home">
+      <span class="logo-icon" aria-hidden="true">⚡</span>
+      <span>Iron<span class="logo-highlight">Peak</span></span>
+    </a>
+
+    <div class="nav-links" role="menubar">
+      <a href="index.html" role="menuitem">Home</a>
+      <a href="about.html" role="menuitem">About</a>
+      <a href="services.html" role="menuitem">Services</a>
+      <a href="packages.html" role="menuitem">Packages</a>
+      <a href="workouts.html" role="menuitem">Workouts</a>
+      <a href="reviews.html" role="menuitem">Reviews</a>
+      <a href="faq.html" role="menuitem">FAQ</a>
+      <a href="contact.html" role="menuitem">Contact</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">🌙</button>
+      <a href="contact.html" class="btn btn-primary btn-sm">Join Now</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Drawer -->
+<div class="nav-drawer-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="nav-drawer" id="navDrawer" aria-label="Mobile navigation">
+  <button class="nav-drawer-close" id="drawerClose" aria-label="Close menu">✕</button>
+  <div class="drawer-links" role="menu">
+    <a href="index.html" role="menuitem">🏠 Home</a>
+    <a href="about.html" role="menuitem">👥 About Us</a>
+    <a href="services.html" role="menuitem">💪 Services</a>
+    <a href="packages.html" role="menuitem">💳 Packages</a>
+    <a href="workouts.html" role="menuitem">🏋️ Workouts</a>
+    <a href="reviews.html" role="menuitem">⭐ Reviews</a>
+    <a href="faq.html" role="menuitem">❓ FAQ</a>
+    <a href="contact.html" role="menuitem">📞 Contact</a>
+    <button id="themeToggleDrawer" style="margin-top:1rem;padding:.75rem 1rem;border-radius:var(--radius-md);border:1px solid var(--border);background:var(--surface);cursor:pointer;font-size:.9rem;font-weight:600;color:var(--text);width:100%;text-align:left;">🌙 Dark Mode</button>
+    <a href="contact.html" class="btn btn-primary" style="margin-top:.75rem;justify-content:center;">Join Now — Free Trial</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home" aria-label="Hero section">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-bg-gradient" style="position:absolute;inset:0;opacity:.3;" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text-side">
+        <div class="hero-badge" aria-label="Special offer">
+          🔥 <span>Limited Time — 1 Month FREE with Annual Plan</span>
+        </div>
+
+        <h1 class="hero-title">
+          Transform Your Body.<br>
+          <span class="highlight">Transform</span> Your Life.
+        </h1>
+
+        <p class="hero-subtitle">
+          Join IronPeak Gym — where champions are made every day. Expert certified trainers, premium equipment, and a community that pushes you to be your absolute best.
+        </p>
+
+        <div class="hero-cta">
+          <a href="contact.html" class="btn btn-primary btn-lg">
+            🚀 Join Now
+          </a>
+          <a href="contact.html#trial" class="btn btn-white btn-lg">
+            🎯 Book Free Trial
+          </a>
+        </div>
+
+        <div class="hero-stats" aria-label="Gym statistics">
+          <div class="hero-stat">
+            <div class="stat-number">5K+</div>
+            <div class="stat-label">Members</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">25+</div>
+            <div class="stat-label">Trainers</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">200+</div>
+            <div class="stat-label">Equipment</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">9 Yrs</div>
+            <div class="stat-label">Experience</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-side" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80"
+          alt="IronPeak Gym interior with modern equipment"
+          width="600" height="500"
+          loading="eager"
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS COUNTERS ===== -->
+<section class="stats-section" aria-labelledby="stats-heading">
+  <h2 id="stats-heading" class="sr-only">Gym Statistics</h2>
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-icon" aria-hidden="true">👥</div>
+        <div class="stat-number">
+          <span data-target="5000">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Members Joined</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon" aria-hidden="true">🏋️</div>
+        <div class="stat-number">
+          <span data-target="25">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Certified Trainers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon" aria-hidden="true">⚙️</div>
+        <div class="stat-number">
+          <span data-target="200">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Equipment Units</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon" aria-hidden="true">🏆</div>
+        <div class="stat-number">
+          <span data-target="9">0</span>
+        </div>
+        <div class="stat-label">Years of Excellence</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="section" aria-labelledby="why-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Why IronPeak?</div>
+      <h2 class="section-title section-title-deco" id="why-heading">Everything You Need to Succeed</h2>
+      <p class="section-subtitle">We provide a complete ecosystem for your fitness journey — equipment, expertise, and community.</p>
+    </div>
+
+    <div class="features-grid stagger-children">
+      <div class="feature-card card-shine">
+        <div class="feature-icon" aria-hidden="true">🏅</div>
+        <h3>Certified Trainers</h3>
+        <p>All our trainers hold nationally recognized certifications (NASM, ACE, ISSA) with proven track records.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon" aria-hidden="true">⚙️</div>
+        <h3>Modern Equipment</h3>
+        <p>State-of-the-art cardio, strength, and functional fitness equipment from leading brands, maintained daily.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon" aria-hidden="true">🎯</div>
+        <h3>Personal Training</h3>
+        <p>One-on-one coaching tailored to your goals, schedule, and fitness level. Real results, guaranteed.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon" aria-hidden="true">🥗</div>
+        <h3>Nutrition Guidance</h3>
+        <p>Certified nutritionists provide personalized meal plans and macro tracking to maximize your results.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon" aria-hidden="true">🧘</div>
+        <h3>Group Classes</h3>
+        <p>50+ weekly group classes including Yoga, Zumba, HIIT, CrossFit, and more. Fun and effective.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon" aria-hidden="true">💳</div>
+        <h3>Flexible Memberships</h3>
+        <p>Monthly, quarterly, annual plans. Student, couple, and family options. No hidden fees, no lock-ins.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURED PACKAGES ===== -->
+<section class="section section-alt" aria-labelledby="packages-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Membership Plans</div>
+      <h2 class="section-title section-title-deco" id="packages-heading">Simple, Transparent Pricing</h2>
+      <p class="section-subtitle">Choose the plan that fits your goals and budget. Cancel anytime.</p>
+    </div>
+
+    <div class="packages-grid stagger-children">
+      <!-- Basic -->
+      <div class="package-card">
+        <div class="package-name">🥉 Basic</div>
+        <div class="package-price">
+          <span class="currency">$</span>
+          <span class="amount">29</span>
+          <span class="period">/month</span>
+        </div>
+        <hr class="package-divider">
+        <ul class="package-features" aria-label="Basic plan features">
+          <li><span class="check" aria-hidden="true">✓</span> Gym floor access</li>
+          <li><span class="check" aria-hidden="true">✓</span> Cardio equipment</li>
+          <li><span class="check" aria-hidden="true">✓</span> Free weights area</li>
+          <li><span class="check" aria-hidden="true">✓</span> 2 group classes/month</li>
+          <li><span class="check" aria-hidden="true">✓</span> Locker room access</li>
+        </ul>
+        <a href="packages.html" class="btn btn-outline">Get Started</a>
+      </div>
+
+      <!-- Standard (Popular) -->
+      <div class="package-card popular">
+        <div class="package-badge">⭐ Most Popular</div>
+        <div class="package-name">🥈 Standard</div>
+        <div class="package-price">
+          <span class="currency">$</span>
+          <span class="amount">49</span>
+          <span class="period">/month</span>
+        </div>
+        <hr class="package-divider">
+        <ul class="package-features" aria-label="Standard plan features">
+          <li><span class="check" aria-hidden="true">✓</span> All Basic features</li>
+          <li><span class="check" aria-hidden="true">✓</span> Unlimited group classes</li>
+          <li><span class="check" aria-hidden="true">✓</span> Steam bath & sauna</li>
+          <li><span class="check" aria-hidden="true">✓</span> 1 PT session/month</li>
+          <li><span class="check" aria-hidden="true">✓</span> Nutrition consultation</li>
+          <li><span class="check" aria-hidden="true">✓</span> Progress tracking</li>
+        </ul>
+        <a href="packages.html" class="btn btn-primary">Join Now</a>
+      </div>
+
+      <!-- Premium -->
+      <div class="package-card">
+        <div class="package-name">🥇 Premium</div>
+        <div class="package-price">
+          <span class="currency">$</span>
+          <span class="amount">79</span>
+          <span class="period">/month</span>
+        </div>
+        <hr class="package-divider">
+        <ul class="package-features" aria-label="Premium plan features">
+          <li><span class="check" aria-hidden="true">✓</span> All Standard features</li>
+          <li><span class="check" aria-hidden="true">✓</span> 4 PT sessions/month</li>
+          <li><span class="check" aria-hidden="true">✓</span> Custom workout plan</li>
+          <li><span class="check" aria-hidden="true">✓</span> Custom diet plan</li>
+          <li><span class="check" aria-hidden="true">✓</span> 24/7 gym access</li>
+          <li><span class="check" aria-hidden="true">✓</span> Unlimited guest passes</li>
+        </ul>
+        <a href="packages.html" class="btn btn-outline">Get Started</a>
+      </div>
+
+      <!-- Annual Promo -->
+      <div class="package-card" style="border-color:var(--warning);">
+        <div class="package-badge" style="background:var(--warning);color:#333;">🎁 Best Value</div>
+        <div class="package-name">Annual Premium</div>
+        <div class="package-price">
+          <span class="currency">$</span>
+          <span class="amount">729</span>
+          <span class="period">/year</span>
+        </div>
+        <p style="font-size:.8rem;color:var(--success);font-weight:600;margin:-0.5rem 0 .5rem;">Save $219 vs monthly!</p>
+        <hr class="package-divider">
+        <ul class="package-features" aria-label="Annual Premium plan features">
+          <li><span class="check" aria-hidden="true">✓</span> All Premium features</li>
+          <li><span class="check" aria-hidden="true">✓</span> Zero joining fee</li>
+          <li><span class="check" aria-hidden="true">✓</span> Priority scheduling</li>
+          <li><span class="check" aria-hidden="true">✓</span> Towel service included</li>
+          <li><span class="check" aria-hidden="true">✓</span> Free body assessment</li>
+        </ul>
+        <a href="packages.html" class="btn btn-primary">View All Plans</a>
+      </div>
+    </div>
+
+    <p class="text-center mt-4" style="font-size:.9rem;color:var(--text-muted);">
+      Need something specific? <a href="contact.html" class="fw-bold">Contact us</a> for corporate & custom plans.
+    </p>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS PREVIEW ===== -->
+<section class="section" aria-labelledby="testimonials-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Success Stories</div>
+      <h2 class="section-title section-title-deco" id="testimonials-heading">Real Results from Real Members</h2>
+      <p class="section-subtitle">Join thousands of members who've transformed their lives at IronPeak.</p>
+    </div>
+
+    <div id="testimonialsPreview" class="grid grid-3" aria-live="polite" aria-label="Member testimonials">
+      <!-- Loaded by reviews.js -->
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"IronPeak Gym has completely transformed my fitness journey! I've lost 30 pounds in 6 months!"</p>
+        <div class="testimonial-author">
+          <img class="testimonial-avatar" src="https://ui-avatars.com/api/?name=Alex+Johnson&background=e63946&color=fff" alt="Alex Johnson" width="48" height="48">
+          <div><div class="testimonial-name">Alex Johnson</div><div class="testimonial-tag">Weight Loss</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"The personal training program is exceptional. My trainer helped me gain 15 lbs of muscle in 4 months!"</p>
+        <div class="testimonial-author">
+          <img class="testimonial-avatar" src="https://ui-avatars.com/api/?name=Marcus+Chen&background=2a9d8f&color=fff" alt="Marcus Chen" width="48" height="48">
+          <div><div class="testimonial-name">Marcus Chen</div><div class="testimonial-tag">Muscle Gain</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"Been a member for 3 years and it keeps getting better. The trainers genuinely care about your progress!"</p>
+        <div class="testimonial-author">
+          <img class="testimonial-avatar" src="https://ui-avatars.com/api/?name=James+OBrien&background=6d6875&color=fff" alt="James O'Brien" width="48" height="48">
+          <div><div class="testimonial-name">James O'Brien</div><div class="testimonial-tag">Long-term Member</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="reviews.html" class="btn btn-outline">Read All Reviews</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GOOGLE REVIEWS WIDGET ===== -->
+<section class="section section-alt" aria-labelledby="google-reviews-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Google Reviews</div>
+      <h2 class="section-title section-title-deco" id="google-reviews-heading">What Google Says About Us</h2>
+    </div>
+
+    <div class="google-reviews-widget reveal" style="max-width:480px;margin:0 auto;">
+      <div style="display:flex;align-items:center;justify-content:center;gap:.75rem;margin-bottom:1rem;">
+        <span style="font-size:1.5rem;">🔍</span>
+        <span style="font-weight:700;font-size:1.1rem;">Google Reviews</span>
+      </div>
+      <div class="google-rating-big" aria-label="Rating: 4.9 out of 5">4.9</div>
+      <div class="google-stars" aria-hidden="true">★★★★★</div>
+      <p style="font-size:.9rem;color:var(--text-muted);margin-bottom:1.5rem;">Based on 500+ Google Reviews</p>
+
+      <!-- Star distribution -->
+      <div style="max-width:280px;margin:0 auto 1.5rem;">
+        <div style="display:grid;grid-template-columns:auto 1fr auto;gap:.5rem;align-items:center;font-size:.85rem;">
+          <span>5 ⭐</span><div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:88%;background:var(--success);"></div></div><span>88%</span>
+          <span>4 ⭐</span><div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:9%;background:var(--warning);"></div></div><span>9%</span>
+          <span>3 ⭐</span><div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:2%;background:var(--accent);"></div></div><span>2%</span>
+          <span>2 ⭐</span><div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:1%;background:var(--primary);"></div></div><span>1%</span>
+          <span>1 ⭐</span><div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:0%;background:var(--primary);"></div></div><span>0%</span>
+        </div>
+      </div>
+
+      <a href="https://g.page/r/REPLACE_WITH_GOOGLE_BUSINESS_ID/review" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%;justify-content:center;">
+        ✍️ Write a Google Review
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES PREVIEW ===== -->
+<section class="section" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">What We Offer</div>
+      <h2 class="section-title section-title-deco" id="services-heading">World-Class Fitness Services</h2>
+      <p class="section-subtitle">From personal training to group classes, we have everything you need to reach your goals.</p>
+    </div>
+
+    <div class="grid grid-4 stagger-children">
+      <div class="feature-card card-shine">
+        <div class="feature-icon">🏋️</div>
+        <h3>Personal Training</h3>
+        <p>1-on-1 sessions with certified coaches tailored to your goals.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon">🔥</div>
+        <h3>Weight Loss</h3>
+        <p>Science-backed fat loss programs combining cardio and strength training.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon">🦾</div>
+        <h3>Muscle Building</h3>
+        <p>Hypertrophy programs for lean muscle mass and body transformation.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon">🧘</div>
+        <h3>Yoga & Wellness</h3>
+        <p>Beginner to advanced yoga classes improving flexibility and mindfulness.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon">💃</div>
+        <h3>Zumba</h3>
+        <p>Fun, high-energy dance fitness classes for all ages and levels.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon">⚡</div>
+        <h3>HIIT</h3>
+        <p>Maximum calorie burn in minimum time with high-intensity interval training.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon">🎯</div>
+        <h3>CrossFit</h3>
+        <p>Community-driven functional training for total body conditioning.</p>
+      </div>
+      <div class="feature-card card-shine">
+        <div class="feature-icon">🥗</div>
+        <h3>Nutrition Coaching</h3>
+        <p>Personalized meal plans and macro guidance from certified nutritionists.</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="services.html" class="btn btn-primary">Explore All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CALCULATORS SECTION ===== -->
+<section class="section section-alt" id="calculators" aria-labelledby="calc-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-badge">Free Tools</div>
+      <h2 class="section-title section-title-deco" id="calc-heading">Fitness Calculators</h2>
+      <p class="section-subtitle">Quick tools to help you understand your body and plan your journey.</p>
+    </div>
+
+    <div class="grid grid-3 stagger-children" style="align-items:start;">
+      <!-- BMI Calculator -->
+      <div class="calculator-card card-shine">
+        <h3 style="margin-bottom:1.25rem;display:flex;align-items:center;gap:.5rem;">⚖️ BMI Calculator</h3>
+        <div class="form-group">
+          <label class="form-label" for="bmiWeight">Weight (kg)</label>
+          <input type="number" id="bmiWeight" class="form-control" placeholder="e.g. 75" min="20" max="300" aria-required="true">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="bmiHeight">Height (cm)</label>
+          <input type="number" id="bmiHeight" class="form-control" placeholder="e.g. 175" min="100" max="250" aria-required="true">
+        </div>
+        <button id="bmiCalcBtn" class="btn btn-primary" style="width:100%;justify-content:center;">Calculate BMI</button>
+        <div id="bmiResult" class="bmi-result" role="alert" aria-live="polite">
+          <div id="bmiValue" class="bmi-value"></div>
+          <div id="bmiCategory" class="bmi-category"></div>
+          <p id="bmiAdvice" style="font-size:.85rem;color:var(--text-muted);margin-top:.5rem;"></p>
+        </div>
+      </div>
+
+      <!-- Calorie Calculator -->
+      <div class="calculator-card card-shine">
+        <h3 style="margin-bottom:1.25rem;display:flex;align-items:center;gap:.5rem;">🔥 Calorie Calculator</h3>
+        <div class="form-group">
+          <label class="form-label" for="calAge">Age</label>
+          <input type="number" id="calAge" class="form-control" placeholder="e.g. 28" min="16" max="100">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="calWeight">Weight (kg)</label>
+            <input type="number" id="calWeight" class="form-control" placeholder="75">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="calHeight">Height (cm)</label>
+            <input type="number" id="calHeight" class="form-control" placeholder="175">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="calGender">Gender</label>
+          <select id="calGender" class="form-control">
+            <option value="">Select...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="calActivity">Activity Level</label>
+          <select id="calActivity" class="form-control">
+            <option value="">Select...</option>
+            <option value="1.2">Sedentary (desk job)</option>
+            <option value="1.375">Lightly active (1-3 days/wk)</option>
+            <option value="1.55">Moderately active (3-5 days/wk)</option>
+            <option value="1.725">Very active (6-7 days/wk)</option>
+            <option value="1.9">Extremely active (athlete)</option>
+          </select>
+        </div>
+        <button id="calorieCalcBtn" class="btn btn-primary" style="width:100%;justify-content:center;">Calculate Calories</button>
+        <div id="calorieResult" style="display:none;margin-top:1rem;" role="alert" aria-live="polite"></div>
+      </div>
+
+      <!-- Membership Cost Calculator -->
+      <div class="calculator-card card-shine">
+        <h3 style="margin-bottom:1.25rem;display:flex;align-items:center;gap:.5rem;">💳 Membership Calculator</h3>
+        <div class="form-group">
+          <label class="form-label" for="memberPlan">Select Plan</label>
+          <select id="memberPlan" class="form-control">
+            <option value="">Choose a plan...</option>
+            <option value="basic">Basic</option>
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="memberDuration">Duration</label>
+          <select id="memberDuration" class="form-control">
+            <option value="">Choose duration...</option>
+            <option value="monthly">Monthly</option>
+            <option value="quarterly">Quarterly (3 months)</option>
+            <option value="halfYearly">Half Yearly (6 months)</option>
+            <option value="annual">Annual (12 months)</option>
+          </select>
+        </div>
+        <button id="memberCalcBtn" class="btn btn-primary" style="width:100%;justify-content:center;">Calculate Cost</button>
+        <div id="memberResult" style="display:none;margin-top:1rem;" role="alert" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA SECTION ===== -->
+<section class="cta-section" aria-labelledby="cta-heading">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-badge" style="background:rgba(255,255,255,.2);color:#fff;">Start Today</div>
+    <h2 class="reveal" id="cta-heading">Ready to Start Your Fitness Journey?</h2>
+    <p class="reveal delay-1">Book your FREE 1-day trial now — no commitment, no credit card required. Come in, experience IronPeak, and see why we're the city's top-rated gym.</p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;" class="reveal delay-2">
+      <a href="contact.html#trial" class="btn btn-white btn-lg">🎯 Book Free Trial</a>
+      <a href="tel:+18001476732" class="btn btn-outline" style="border-color:#fff;color:#fff;" onmouseover="this.style.background='rgba(255,255,255,.15)'" onmouseout="this.style.background='transparent'">📞 Call Us Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" aria-label="IronPeak Gym">
+          <span class="logo-icon" aria-hidden="true">⚡</span>
+          <span>Iron<span class="logo-highlight">Peak</span></span>
+        </a>
+        <p>Transform your body and life at IronPeak Gym. Premier fitness center with certified trainers, modern equipment, and a community that cares.</p>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="https://instagram.com/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
+          <a href="https://facebook.com/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">👥</a>
+          <a href="https://youtube.com/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶️</a>
+          <a href="https://linkedin.com/company/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">💼</a>
+          <a href="https://g.page/ironpeakgym" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Google Business">🔍</a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="footer-heading">Quick Links</h3>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="packages.html">Packages</a>
+          <a href="workouts.html">Workouts</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+
+      <div>
+        <h3 class="footer-heading">Services</h3>
+        <nav class="footer-links" aria-label="Services links">
+          <a href="services.html#personal-training">Personal Training</a>
+          <a href="services.html#weight-loss">Weight Loss</a>
+          <a href="services.html#muscle-gain">Muscle Building</a>
+          <a href="services.html#yoga">Yoga</a>
+          <a href="services.html#zumba">Zumba</a>
+          <a href="services.html#hiit">HIIT</a>
+          <a href="services.html#crossfit">CrossFit</a>
+          <a href="services.html#nutrition">Nutrition</a>
+        </nav>
+      </div>
+
+      <div>
+        <h3 class="footer-heading">Contact</h3>
+        <address style="font-style:normal;">
+          <div class="footer-contact-item">
+            <span class="contact-icon" aria-hidden="true">📍</span>
+            <span>123 Fitness Boulevard,<br>Muscle City, CA 90210</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="contact-icon" aria-hidden="true">📞</span>
+            <a href="tel:+18001476732" style="color:rgba(255,255,255,.75);">+1-800-IRONPEAK</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="contact-icon" aria-hidden="true">💬</span>
+            <a href="https://wa.me/18001476732" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,.75);">WhatsApp Us</a>
+          </div>
+          <div class="footer-contact-item">
+            <span class="contact-icon" aria-hidden="true">📧</span>
+            <a href="mailto:info@ironpeakgym.com" style="color:rgba(255,255,255,.75);">info@ironpeakgym.com</a>
+          </div>
+        </address>
+        <div style="margin-top:1rem;font-size:.85rem;">
+          <div style="font-weight:700;color:rgba(255,255,255,.9);margin-bottom:.35rem;">⏰ Working Hours</div>
+          <div>Mon–Fri: 5:00 AM – 11:00 PM</div>
+          <div>Saturday: 6:00 AM – 10:00 PM</div>
+          <div>Sunday: 7:00 AM – 9:00 PM</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem;width:100%;">
+      <span>© 2024 IronPeak Gym. All rights reserved.</span>
+      <span>Made with ❤️ for fitness enthusiasts</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">✕</button>
+  <button id="lightboxPrev" aria-label="Previous image" style="position:absolute;left:1rem;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);border:none;color:#fff;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:1.25rem;">‹</button>
+  <img id="lightboxImg" src="" alt="" loading="lazy">
+  <button id="lightboxNext" aria-label="Next image" style="position:absolute;right:1rem;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);border:none;color:#fff;width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:1.25rem;">›</button>
+  <div id="lightboxCaption" style="position:absolute;bottom:2rem;color:rgba(255,255,255,.8);font-size:.9rem;"></div>
+</div>
+
+<!-- Floating Buttons -->
+<div class="floating-btns" aria-label="Quick contact buttons">
+  <button class="float-btn float-top" id="scrollTopBtn" aria-label="Scroll to top">
+    ↑
+    <span class="float-tooltip" aria-hidden="true">Back to Top</span>
+  </button>
+  <a href="tel:+18001476732" class="float-btn float-call" aria-label="Call IronPeak Gym">
+    📞
+    <span class="float-tooltip" aria-hidden="true">Call Now</span>
+  </a>
+  <a href="https://wa.me/18001476732?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20IronPeak%20Gym%20memberships." class="float-btn float-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    💬
+    <span class="float-tooltip" aria-hidden="true">WhatsApp</span>
+  </a>
+</div>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/reviews.js"></script>
+</body>
+</html>

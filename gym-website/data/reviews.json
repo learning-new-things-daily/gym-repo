@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "rating": 5,
+    "date": "2024-11-15",
+    "text": "IronPeak Gym has completely transformed my fitness journey! The equipment is top-notch, the trainers are incredibly knowledgeable, and the atmosphere is motivating. I've lost 30 pounds in 6 months!",
+    "avatar": "https://ui-avatars.com/api/?name=Alex+Johnson&background=e63946&color=fff",
+    "tag": "Weight Loss"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Williams",
+    "rating": 5,
+    "date": "2024-10-28",
+    "text": "As a working mom, I needed flexible hours and a supportive environment. IronPeak delivers on both counts. The female trainers are amazing, and the facilities are always clean. Highly recommend!",
+    "avatar": "https://ui-avatars.com/api/?name=Sarah+Williams&background=f4a261&color=fff",
+    "tag": "Flexibility"
+  },
+  {
+    "id": 3,
+    "name": "Marcus Chen",
+    "rating": 5,
+    "date": "2024-10-10",
+    "text": "Best gym I've ever been to! The personal training program is exceptional. My trainer Mike helped me gain 15 lbs of muscle in 4 months. The nutrition guidance was a game-changer for me.",
+    "avatar": "https://ui-avatars.com/api/?name=Marcus+Chen&background=2a9d8f&color=fff",
+    "tag": "Muscle Gain"
+  },
+  {
+    "id": 4,
+    "name": "Priya Sharma",
+    "rating": 5,
+    "date": "2024-09-22",
+    "text": "I joined for yoga classes and ended up falling in love with the whole gym! The yoga instructor is phenomenal, and I've since started strength training too. The community here is so welcoming.",
+    "avatar": "https://ui-avatars.com/api/?name=Priya+Sharma&background=e9c46a&color=333",
+    "tag": "Yoga & Wellness"
+  },
+  {
+    "id": 5,
+    "name": "David Rodriguez",
+    "rating": 4,
+    "date": "2024-09-05",
+    "text": "Great gym overall! The CrossFit classes are intense and extremely well-structured. Parking could be better on peak hours but the training quality makes up for it. Would definitely recommend.",
+    "avatar": "https://ui-avatars.com/api/?name=David+Rodriguez&background=457b9d&color=fff",
+    "tag": "CrossFit"
+  },
+  {
+    "id": 6,
+    "name": "Emily Turner",
+    "rating": 5,
+    "date": "2024-08-18",
+    "text": "The Premium membership is worth every penny! Unlimited PT sessions, customized diet plan, and 24/7 access — this gym has everything. I've gone from a complete beginner to competing in local fitness events!",
+    "avatar": "https://ui-avatars.com/api/?name=Emily+Turner&background=b5838d&color=fff",
+    "tag": "Premium Member"
+  },
+  {
+    "id": 7,
+    "name": "James O'Brien",
+    "rating": 5,
+    "date": "2024-07-30",
+    "text": "Been a member for 3 years and it keeps getting better. They constantly upgrade equipment and add new classes. The trainers genuinely care about your progress. This gym changed my life!",
+    "avatar": "https://ui-avatars.com/api/?name=James+OBrien&background=6d6875&color=fff",
+    "tag": "Long-term Member"
+  },
+  {
+    "id": 8,
+    "name": "Aisha Patel",
+    "rating": 5,
+    "date": "2024-07-15",
+    "text": "I was nervous to start my fitness journey but the team at IronPeak made me feel so comfortable from day one. The free trial was excellent, and I signed up immediately. Down 20 lbs and feeling amazing!",
+    "avatar": "https://ui-avatars.com/api/?name=Aisha+Patel&background=e76f51&color=fff",
+    "tag": "Beginner Friendly"
+  }
+]
